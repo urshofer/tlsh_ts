@@ -1,0 +1,2 @@
+This project is a port of Trend Micro Locality Sensitive Hash published in [Github](https://github.com/trendmicro/tlsh).
+It port an official Javascript version defined in https://github.com/trendmicro/tlsh/blob/master/js_ext/tlsh.js into Typescript with some code portion port from C++ version.
