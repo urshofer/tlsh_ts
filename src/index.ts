@@ -484,7 +484,7 @@ export class Tlsh {
     }
   }
   /** len_diff defaults to true */
-  protected fromTlshStr(str: string) {
+  fromTlshStr(str: string) {
     if (str.length != TLSH_STRING_LEN) {
       throw new Error("Tlsh.fromTlshStr() - string has wrong length (" + str.length + " != " + TLSH_STRING_LEN + ")")
     }
